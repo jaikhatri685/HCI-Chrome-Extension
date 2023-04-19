@@ -1,0 +1,35 @@
+.btn-css{
+    padding-top: 0.5rem;
+padding-bottom: 0.5rem; 
+padding-left: 1rem;
+padding-right: 1rem; 
+background-color: #3B82F6; 
+font-size: 12px;
+color: #ffffff; 
+font-weight: 700; 
+border-radius: 0.25rem; 
+
+
+}
+.btn-css:hover {
+    background-color: #1D4ED8; 
+    }
+
+.increase-font-size-btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.decrease-font-size-btn{
+    display: flex;
+    justify-content: center;
+
+}
+.selected-text-to-speech-btn{
+    display: flex;
+    justify-content: center;
+}
+.toggle-dark-mode-btn{
+    display: flex;
+    justify-content: center;
+}

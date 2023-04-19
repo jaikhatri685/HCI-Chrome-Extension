@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="/css/tailwind.output.css" rel="stylesheet" />
+		<link href="/css/index.css" rel="stylesheet" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lexend&display=swap"
+			rel="stylesheet"
+		/>
+		<title>HCI Project</title>
+		<script src="popup.js"></script>
+	</head>
+	<body>
+		<div class="px-10 py-4 flex flex-col justify-center bg-slate-300 toggle-dark-mode-btn" style="width: 300px">
+
+				<button
+					id="dark-mode"
+					class=" btn-css"
+				>
+					Toggle Dark Mode
+				</button>
+				<p class="color: #0e090b text-[0.7rem]">Status: <span id="dark-mode-txt">OFF</span></p>
+		</div>
+		<div class="px-10 py-4 flex flex-col justify-center bg-slate-300 selected-text-to-speech-btn" style="width: 300px">
+				<button
+					id="text-to-speech"
+					class="btn-css"
+				>
+					Selected Text to Speech
+				</button>
+		</div>
+		<!-- <div class="px-10 py-4 flex flex-col justify-center bg-slate-300	" style="width: 300px">
+			<div>
+				<button
+					id="closeInactiveTabs"
+					class="mt-8 transition ease-in-out duration-200 hover:text-tt-bg hover:bg-pink rounded-md px-3 py-1 text-white font-semibold text-sm focus:outline-none"
+				>
+					Close Inactive Tabs
+				</button>
+			</div>
+		</div> -->
+		<div class="px-10 py-4 flex flex-col justify-center bg-slate-300	" style="width: 300px">
+		<div class="increase-font-size-btn">
+		<button id="increase-font-size" class="btn-css ">Increase Font Size</button>
+		</div>
+		<div class="decrease-font-size-btn">
+		<button id="decrease-font-size" class="btn-css "
+		>Decrease Font Size</button>
+		</div>
+		</div>
+		<div
+		class="bg-slate-300	 w-full text-center text-white pt-1 pb-1 tracking-wide color: #fe2a70"
+		style="font-size: 0.6rem"
+	>
+		
+		<p style="color: #0e090b">Developed by:</p>
+
+		<p style="color: #0e090b">Jai Khatri</p>
+	</div>
+
+	</body>
+</html>
